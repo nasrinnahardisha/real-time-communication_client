@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const asioxInstance = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://real-time-communication-server-w1r7.onrender.com",
 });
 
 const UseAxios = () => {

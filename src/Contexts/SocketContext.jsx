@@ -11,9 +11,12 @@ export const SocketProvider = ({ children }) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const socketInstance = io("http://localhost:5000", {
-      withCredentials: true,
-    });
+    const socketInstance = io(
+      "https://real-time-communication-server-w1r7.onrender.com",
+      {
+        withCredentials: true,
+      },
+    );
 
     socketInstance.on("connect", () => {
       console.log("⚡ Connected to WebSocket Server:", socketInstance.id);

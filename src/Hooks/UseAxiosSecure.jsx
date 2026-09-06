@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { auth } from "../Firebase/firebase.init";
 
 const axiosSecure = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://real-time-communication-server-w1r7.onrender.com",
   // 🔹 ekhane amra authorization header set korbo, jekhane token thakbe
 });
 
