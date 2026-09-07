@@ -47,7 +47,7 @@ const Login = () => {
       </div>
 
       <h3 className="text-3xl font-bold text-center text-foreground  font-Hind-Siliguri">
-        Welcome to প্রকৃতির বাজার (Prokritir Bazar)
+        TaskFlow Login
       </h3>
       <p className="text-center text-muted-foreground font-Hind-Siliguri mb-8 text-sm font-semibold">
         Sign in to continue
